@@ -1,4 +1,4 @@
-class YqAT3 < Formula
+class Yq < Formula
   desc "Process YAML documents from the CLI - Version 3"
   homepage "https://github.com/mikefarah/yq"
   url "https://github.com/mikefarah/yq/archive/3.4.1.tar.gz"
@@ -12,8 +12,6 @@ class YqAT3 < Formula
     sha256 cellar: :any_skip_relocation, mojave:        "4180e832dac7686fc6e0db67ebde2aa4c28dc42934795fed810e657853b47ab2"
     sha256 cellar: :any_skip_relocation, x86_64_linux:  "7b984fa4e2b4aee1bdec7d7ed60ed89e2ed3b2afdaffac772a696b1f857fae6a"
   end
-
-  keg_only :versioned_formula
 
   depends_on "go" => :build
 
