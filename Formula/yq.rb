@@ -6,7 +6,6 @@ class Yq < Formula
   license "MIT"
 
   bottle do
-    cellar :any_skip_relocation
     sha256 cellar: :any_skip_relocation, big_sur: "cce7e56eea53fc1aa33bf8994a8528ad577f49fe118986f5c55f1c246d215edd"
     sha256 cellar: :any_skip_relocation, catalina: "00057268cd051af30c032b60cace608d4ce933db3d72720a04ddfa74f683086b"
     sha256 cellar: :any_skip_relocation, mojave: "bf895832c539c38bdbe2958dd2f905dcf80c65fed75a3cc2778fed922b5fffe5"
