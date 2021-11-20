@@ -4,7 +4,7 @@
 
 `brew install c3-pennsu/c3/<formula>`
 
-Or `brew tap c3-pennsu/c3` and then `brew install <formula>`.
+Or `brew tap c3-pennsu/c3` and then `brew install c3-pennsu/homebrew-c3/<formula>`.
 
 ## Documentation
 
